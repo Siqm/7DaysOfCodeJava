@@ -20,6 +20,7 @@ public class PrintTop250 {
 		List<String> titles = parseTitles(moviesArray);
 		
 		List<String> urlImages = parseUrlImages(moviesArray);
+		System.out.println(moviesArray);
 		
 	}
 
