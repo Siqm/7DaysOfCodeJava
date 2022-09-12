@@ -14,7 +14,14 @@ public class printTop250 {
 
 		String json = getContent(args[0]);
 		
+		String[] movies = splitMovies(json);
+		String movie;
 		
+		
+		
+		for (int i = 0; i < movies.length; i++) {
+			
+		}
 	}
 	
 	public static String[] splitMovies(String json) {
